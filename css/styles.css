@@ -175,6 +175,10 @@ body {
     margin: 0 auto;
 }
 
+.main-btn:hover {
+    background: #404BBF;
+}
+
 .list {
     list-style: none;
 }
@@ -331,6 +335,11 @@ body {
     justify-content: center;
 }
 
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: #404BBF;
+}
+
 /*---------CUSTOMERS----------*/
 
 .customers-title {
@@ -356,7 +365,7 @@ body {
     border-radius: 4px;
     width: 168px;
     height: 88px;
-
+    fill: #8E8F99;
 }
 
 .customers-link {
@@ -365,6 +374,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.customers-icon {
+    fill: #8E8F99;
+}
+
+.customers-item:hover,
+.customers-item:focus {
+    border-color: #404BBF;
+}
+
+.customers-item:hover .customers-icon {
+    fill: #404BBF;
+}
+
+.customers-item:focus {
+    border-color: #404BBF;
+}
+
+.customers-item:focus .customers-icon {
+    fill: #404BBF;
 }
 
 /*---------FOOTER----------*/
@@ -447,6 +477,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer-soc-link:hover {
+    background-color: #31D0AA;
+}
+
+.footer-soc-link:focus {
+    background-color: #31D0AA;
 }
 
 .footer-soc-icon {
