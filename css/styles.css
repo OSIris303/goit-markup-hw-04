@@ -385,17 +385,11 @@ body {
     border-color: #404BBF;
 }
 
-.customers-item:hover .customers-icon {
-    fill: #404BBF;
-}
-
-.customers-item:focus {
-    border-color: #404BBF;
-}
-
+.customers-item:hover .customers-icon,
 .customers-item:focus .customers-icon {
     fill: #404BBF;
 }
+
 
 /*---------FOOTER----------*/
 
