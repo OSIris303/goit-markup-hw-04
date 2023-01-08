@@ -386,7 +386,7 @@ body {
 }
 
 .customers-item:hover .customers-icon,
-.customers-item:focus .customers-icon {
+.customers-link:focus .customers-icon {
     fill: #404BBF;
 }
 
